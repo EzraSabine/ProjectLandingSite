@@ -1,0 +1,102 @@
+
+body {
+  background: white;
+  font-family: arial;
+}
+
+header {
+  padding: 0 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white; 
+  top: 0;
+  }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+img {
+  width: 15%;
+  margin-top: 10px;
+}
+
+#main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  padding: 165px 0 0 0;
+  }
+
+#email { 
+  width: 260px;
+  padding: 5px;
+}
+
+.btn {
+  width: 100%;
+  max-width: 100px;
+  height: 45px;
+  margin: 15px 0;
+  background: orange;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#video {
+  border: 5px black solid;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 160px;
+  margin-top: -69px;
+  line-height: 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  margin-left: 150px;
+  padding: 5px;
+  margin-bottom: 80px;
+}
